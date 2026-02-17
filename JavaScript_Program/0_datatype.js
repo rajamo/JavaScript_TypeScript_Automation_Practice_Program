@@ -1,9 +1,9 @@
-// 1. Premitive Data type : Simple ; Number, string, boolean , BigInt, Null, undefine 
-// 2. Non premitivie : Reference ;  - array, Objects, interface, class
+/* 1. Premitive Data type : Simple ; Number, string, boolean , BigInt, Null, undefine 
+ 2. Non premitivie : Reference ;  - array, Objects, interface, class
 
-// Number : Size - 8 byets for all number in a variable 
-//String : Size 2 byets for each character 
-//Boolean : Size 1 bytes = 8 bits
+Number : Size - 8 byets for all number in a variable 
+String : Size 2 byets for each character 
+Boolean : Size 1 bytes = 8 bits */
 
 let longData = 1233455555666n;  // BigInt end with n;
 console.log( typeof longData); // BigInt

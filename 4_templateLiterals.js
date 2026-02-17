@@ -1,5 +1,5 @@
-//Template Literals in JavaScript
-//Using backticks to create strings with embedded expressions and multi-line support
+/*Template Literals in JavaScript 
+Using backticks to create strings with embedded expressions and multi-line support */
 
 //1. Basic Template Literal
 

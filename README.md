@@ -4,7 +4,7 @@
 ![Automation](https://img.shields.io/badge/Automation-Ready-green)
 ![Beginner Friendly](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-orange)
 
-# JavaScript & TypeScript Automation Practice Program
+# Learn step by step JavaScript & TypeScript for Automation testing
 
 ## 📌 Overview
 

@@ -1,17 +1,17 @@
 
 //Data types in TypeScript
 
-//TS is a statically typed language, which means that types are checked at compile time. This helps catch errors early and improves code quality.
+/*TS is a statically typed language, which means that types are checked at compile time. This helps catch errors early and improves code quality.
 //TypeScript provides various data types to define the shape and behavior of data in your applications.
 //Which highlights the issue of dynamic typing in JavaScript and how TypeScript addresses it with static typing.
 
 //types in TypeScript can be broadly categorized into:
 //  Primitive types: 1.boolean, 2.number, 3.string, 4.null, 5.undefined, 6.symbol, 7.bigint
 //  Object types: arrays, tuples, enums, classes, interfaces
-//  Special types: any, void, never, unknown
+//  Special types: any, void, never, unknown */
 
 console.log("----annotated Data Types in TypeScript----");
-//Tye annotation: explicitly specifying the type of a variable.
+//Type annotation: explicitly specifying the type of a variable.
 let fname: string = "Alice"; //string type
 let age1: number = 25; //number type
 let flag : boolean = true; //boolean type
@@ -30,7 +30,6 @@ let data: any = 67;
 data = "Now I'm a string"; //no error, type can change
 data = true; //no error, type can change
 console.log(`Data value: ${data}`); 
-
 
 
 //1.Annotating Data Types

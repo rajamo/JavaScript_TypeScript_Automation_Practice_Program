@@ -1,5 +1,8 @@
-//********* TypeScript Functions and Retrun Types 1.Void 2.Never 3.int 4.any ****************
-
+//******************************************************************************************
+// Language : TypeScript 
+// Purpose : To learn functions and different return types 
+// Return Types : Void , int, any, never
+//********************************************************************************************
 /* 1.function return Type = nothing (void)
 void type represents the absence of any value
 typically used as the return type of functions that do not return a value

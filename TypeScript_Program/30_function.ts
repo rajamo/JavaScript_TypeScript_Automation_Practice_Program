@@ -1,29 +1,38 @@
-//
-//6. function return nothing (void)
-//void type represents the absence of any value
-//typically used as the return type of functions that do not return a value
-// Example of void type:
+//******************************************************************************************
+// Language : TypeScript 
+// Purpose : To learn functions and different return types 
+// Return Types : Void , int, any, never
+//********************************************************************************************
+/* 1.function return Type = nothing (void)
+void type represents the absence of any value
+typically used as the return type of functions that do not return a value
+Example of void type: */
+
 function logMessage(message: string): void {    
     console.log(message);
 }
 logMessage('This is a void function'); //void function usage
 
 
-//8. Never 
-//never type represents values that never occur 
-//e.g., a function that always throws an error or never returns
-// Example of never type:
+/* 2.function Retrun Type = Never 
+never type represents values that never occur 
+e.g., a function that always throws an error or never returns
+Example of never type:*/
+
 function throwError(message: string): never {
     throw new Error(message);
 } 
 
-//int function with parameters and return type
+/* 3.function Return Type = int 
+Example : int function with parameters and return type */
+
 function calculas(x:number,y:number):number {
      return x+y;
-
 }
 
-//Any function with parameters and return type
+/*4. function Return Type = any
+Any function with parameters and return type */
+
 function addNumStr(x:number | string,y:number | string):any { //any return type allows any type of return value
     if(typeof x === 'number' && typeof y === 'number'){ 
     return x+y;
@@ -33,5 +42,4 @@ function addNumStr(x:number | string,y:number | string):any { //any return type 
 };
 console.log(`Calculas Function: 5 + 10 = ${calculas(5,10)}`);
 console.log(`AddNumStr Function with numbers: 5 + 10 = ${addNumStr(5,10)}`);
-console.log(`AddNumStr Function with strings: 'Hello' + 'World' = ${addNumStr('Hello','World')}`);
-
+console.log(`AddNumStr Function with strings: 'Hello' + 'World' = ${addNumStr('Hello','World')}`) 

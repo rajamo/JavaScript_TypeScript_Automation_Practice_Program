@@ -24,7 +24,7 @@ function calculas(x:number,y:number):number {
 }
 
 //Any function with parameters and return type
-function addNumStr(x:number | string,y:number | string):any {
+function addNumStr(x:number | string,y:number | string):any { //any return type allows any type of return value
     if(typeof x === 'number' && typeof y === 'number'){ 
     return x+y;
     } else {
